@@ -77,3 +77,70 @@ The goal is to improve **grid reliability** and **response strategies** through 
 - Models effectively detect **rare but critical incidents**  
 
 ---
+## Usage
+
+1.  **Preprocess the data**
+```
+python preprocess.py --data ./data/incidents.csv
+```
+2. **Train models**
+```
+python train.py --model gnn
+python train.py --model xgboost
+```
+3. **Evaluate models**
+```
+python evaluate.py --model gnn
+```
+---
+## Repository Structure
+
+```
+multilayer-gnn-grid-resilience/
+├── Data/                  # Dataset (OGE incident data)
+├── Codes/                 # Jupyter notebooks demonstrating workflows
+├── requirements.txt       # Python dependencies
+└── LICENSE                # Repository license
+```
+## Requirements
+
+- Python >= 3.8
+- PyTorch
+- PyTorch Geometric
+- NetworkX
+- Scikit-learn
+- NumPy, Pandas
+
+Install dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Quick Start
+
+Clone the repository:
+```bash
+git clone https://github.com/your-username/Multilayer_ensemble_comparison.git
+cd Multilayer_ensemble_comparison
+```
+
+## Citation
+
+If you use this work in your research, please cite:
+
+```bibtex
+@article{Mkazim2025,
+  title     = {xyz},
+  author    = {xyz},
+  journal   = {arXiv preprint: },
+  year      = {2025},
+  note      = {Available at }}
+}
+```
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+
