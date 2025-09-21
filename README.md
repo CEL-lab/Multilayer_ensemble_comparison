@@ -4,7 +4,7 @@
 This repository implements machine learning models for **classifying power grid incidents** using data from **Oklahoma Gas & Electric (2015–2021)**.  
 The goal is to improve **grid reliability** and **response strategies** through four classification tasks.
 
-![Multilayer Network](heterogeneous_layers.pdf)  
+![Multilayer Network](heterogeneous_layers-1.png)  
 *Figure: Multilayer network representation of substations with spatial, temporal, and causal dependencies*
 
 ---
