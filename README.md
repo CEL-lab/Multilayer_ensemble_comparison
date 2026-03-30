@@ -1,4 +1,4 @@
-# Power Grid Incident Classification
+# Benchmarking Multilayer Graph Embeddings for Utility Maintenance and Risk Clustering
 
 ## Overview
 This repository implements machine learning models for **classifying power grid incidents** using data from **Oklahoma Gas & Electric (2015–2021)**.  
